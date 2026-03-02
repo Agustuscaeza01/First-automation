@@ -17,5 +17,6 @@ public class FirstTest {
         driver.get("https://www.saucedemo.com/");
         System.out.println("Title is: " + driver.getTitle());
         driver.quit();
+        System.out.println("TEST FINISHED");
     }
 }
